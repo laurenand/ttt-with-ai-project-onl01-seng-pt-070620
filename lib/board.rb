@@ -1,3 +1,4 @@
+require 'pry'
 class Board
   attr_accessor :cells
   def initialize
@@ -20,6 +21,7 @@ class Board
   
   def position(string)
     string = string.to_i - 1
+    
   end
   
 end
