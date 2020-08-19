@@ -19,8 +19,8 @@ class Board
     puts " #{@cells[6]} | #{@cells[7]} | #{@cells[8]} "
   end
   
-  def position(string)
-    string = string.to_i - 1
+  def position(input)
+    input = input.to_i - 1
     binding.pry
   end
   
