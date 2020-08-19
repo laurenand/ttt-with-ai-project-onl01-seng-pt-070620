@@ -1,6 +1,6 @@
 class Board
   
-  def initialize(cells)
+  def initialize
     @cells = cells
     
   end
