@@ -21,7 +21,7 @@ class Board
   
   def position(string)
     string = string.to_i - 1
-    
+    binding.pry
   end
   
 end
