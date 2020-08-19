@@ -7,7 +7,7 @@ class Board
   
   def reset!
     self.cells.clear
-    @cells
+    @board
   end
   
   def display 
