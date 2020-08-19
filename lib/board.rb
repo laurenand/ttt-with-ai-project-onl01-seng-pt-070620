@@ -6,7 +6,7 @@ class Board
   end
   
   def reset!
-    
+    self.cells.clear
   end
   
   def display 
