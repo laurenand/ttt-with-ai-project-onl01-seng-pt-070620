@@ -7,7 +7,7 @@ class Board
   
   def reset!
     self.cells.clear
-    @board
+    @board = Array.new(9, " ")
   end
   
   def display 
