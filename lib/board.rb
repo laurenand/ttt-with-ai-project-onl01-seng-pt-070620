@@ -1,7 +1,7 @@
 class Board
   attr_accessor :cells
   def initialize
-    @cells = cells
+    @cells = 
     Array.new(9, " ")
   end
   
