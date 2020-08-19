@@ -20,7 +20,7 @@ class Board
   end
   
   def position(input)
-    input = @cells[i]
+    input
     
   end
   
