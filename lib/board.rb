@@ -2,7 +2,7 @@ class Board
   attr_accessor :cells
   def initialize
     @cells = cells
-    @board = Array.new(9, " ")
+    Array.new(9, " ")
   end
   
   def reset!
